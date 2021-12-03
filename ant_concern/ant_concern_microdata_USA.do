@@ -1,6 +1,5 @@
 *Set CD for analyses
-dropbox
-cd "Anticipation Time Climate/stata"
+cd "" \\ADD IN YOUR CD HERE
 graph set window fontface "Helvetica"
 ****Tipping Classes***********
 local behav ///
