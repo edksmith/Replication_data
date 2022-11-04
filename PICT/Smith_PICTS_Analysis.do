@@ -2,6 +2,7 @@ clear all
 *Set CD for analyses
 
 
+
 //How prevalent are Extremist Conspiracy beliefs in the US?
 local irt q vote
 loc vote_lab "{bf:A)}"
@@ -434,7 +435,7 @@ foreach n of numlist 1/2{
 	xtitle("Gender Identification") ///
 	xlab(1 "Male" 2 "Female", glc(white)) ///
 	ylab(, glc(white)) ///
-	legend(off)  ///
+	legend(off) nodraw ///
 	name(d_female_`e', replace)
 }	
 restore	
